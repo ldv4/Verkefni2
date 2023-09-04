@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="is">
+    <head>
+        <meta charset="utf-8">
+        <title>Panta</title>
+        <meta property="og:title" content="Vefforritun 1">
+        <meta property="og:description" content="Verkefni 2">
+        <meta property="og:image" content="./myndir/sharing.jpg">
+      </head>
+    <body>
+      <header>
+        <p><a rel="noopener" target="_blank" href="#efni">Beint í efni</a></p>
+        <p><a href="../index.html">Forsíða</a>
+        <a href="matsedill.html">Matseðill</a>
+        <a href="pontun.html">Panta hér</a>
+        <a href="um.html">Um okkur</a></p>
+      </header>
+
+<h1>Pantanir</h1>
+<p><a id="efni"> </a>Pantaðu borð og mættu til okkar eða pantaðu mat sem við sendum þér eða þú sækir.</p>
+
+<form>
+<fieldset>
+<legend>Panta borð</legend>
+<label for="date">
+    Hvenær villtu koma?
+</label>
+<input id="date" type="date"
+    min="2022-01-01" max="2030-12-31">
+<label for="fjoldi">
+    Fjöldi:
+</label>
+<select id="fjoldi">
+    <option value="1">1</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+    <option value="4">4</option>
+    <option value="5">5</option>
+    <option value="6">6</option>
+    <option value="7">7</option>
+    <option value="8">8</option>
+    <option value="9">9</option>
+    <option value="10">10</option>
+</select>
+<div>
+    <label for="comment">Villtu taka eitthvað fram?</label>
+    <textarea name="comment" id="comment" ></textarea>
+</div>
+</fieldset>
+
+<fieldset>
+<legend>Panta mat</legend>
+<select name="rettur1" id="rettur1" aria-label="rettur1">
+    <label><option value="v">-Veldu rétt-</option></label>
+    <label></label><option value="1">1. Lasagna</option></label>
+    <label></label><option value="2">2. Sveppa risotto</option></label>
+    <label></label><option value="3">3. Ferskt pasta með pestó</option></label>
+    <label></label><option value="4">4. Quesadilla</option></label>
+    <label></label><option value="5">5. Falafel með hummus</option></label>
+    <label></label><option value="6">6. Súpa dagsins</option></label>
+    <label></label><option value="7">7. Kryddaðar sætkartöflur</option></label>
+    <label></label><option value="8">8. Hamborgari</option></label>
+    <label></label><option value="9">9. Pizza</option></label>
+</select>
+<select id="rettur2" name="rettur2" aria-label="rettur2">
+    <option value="v">-Veldu rétt- </option>
+    <option value="1">1. Lasagna</option>
+    <option value="2">2. Sveppa risotto</option>
+    <option value="3">3. Ferskt pasta með pestó</option>
+    <option value="4">4. Quesadilla</option>
+    <option value="5">5. Falafel með hummus</option>
+    <option value="6">6. Súpa dagsins</option>
+    <option value="7">7. Kryddaðar sætkartöflur</option>
+    <option value="8">8. Hamborgari</option>
+    <option value="9">9. Pizza</option>
+</select>
+<select id="rettur3" name="rettur3" aria-label="rettur3">
+    <option value="v">-Veldu rétt-</option>
+    <option value="1">1. Lasagna</option>
+    <option value="2">2. Sveppa risotto</option>
+    <option value="3">3. Ferskt pasta með pestó</option>
+    <option value="4">4. Quesadilla</option>
+    <option value="5">5. Falafel með hummus</option>
+    <option value="6">6. Súpa dagsins</option>
+    <option value="7">7. Kryddaðar sætkartöflur</option>
+    <option value="8">8. Hamborgari</option>
+    <option value="9">9. Pizza</option>
+</select>
+<select id="rettur4" name="rettur4" aria-label="rettur4">
+    <option value="v">-Veldu rétt-</option>
+    <option value="1">1. Lasagna</option>
+    <option value="2">2. Sveppa risotto</option>
+    <option value="3">3. Ferskt pasta með pestó</option>
+    <option value="4">4. Quesadilla</option>
+    <option value="5">5. Falafel með hummus</option>
+    <option value="6">6. Súpa dagsins</option>
+    <option value="7">7. Kryddaðar sætkartöflur</option>
+    <option value="8">8. Hamborgari</option>
+    <option value="9">9. Pizza</option>
+</select>
+<select id="rettur5" name="rettur5" aria-label="rettur5">
+    <option value="v">-Veldu rétt-</option>
+    <option value="1">1. Lasagna</option>
+    <option value="2">2. Sveppa risotto</option>
+    <option value="3">3. Ferskt pasta með pestó</option>
+    <option value="4">4. Quesadilla</option>
+    <option value="5">5. Falafel með hummus</option>
+    <option value="6">6. Súpa dagsins</option>
+    <option value="7">7. Kryddaðar sætkartöflur</option>
+    <option value="8">8. Hamborgari</option>
+    <option value="9">9. Pizza</option>
+</select>
+<label id="insert">
+    Heimilisfang:
+    <input type="text" id="address" placeholder="Platgata 37, 101 Reykjavík">
+</label>
+</fieldset>
+
+<fieldset>
+<legend>Þínar upplýsingar</legend>
+<label id="text">
+    Nafn:
+    <input type="text" id="name" required>
+</label>
+<label>
+    Netfang:
+    <input type="text" id="email" required placeholder="example@example.com">
+</label>
+<label>
+    Sími:
+    <input type="text" id="phone" required placeholder="000-0000">
+</label>
+</fieldset>
+
+<fieldset>
+<legend>Samþykkja og panta</legend>
+<label>
+    Ég samþykki skilmála veitingastaðsins:
+    <input name="accept" type="checkbox">
+</label>
+</fieldset>
+
+<button type="reset">Panta</button>
+</form>
+<p><a href="../index.html">Aftur á forsíðu</a></p>
+<footer>
+    <dl>
+        <dt><strong>Opnunartími</strong></dt>
+        <dt>Mánudaga til fimmtudaga</dt> 
+        <dd>09:00–18:00</dd>
+        <dt>Föstudaga</dt> 
+        <dd>10:00–22:00</dd>
+        <dt>Laugardaga</dt>
+        <dd>11:00–22:00</dd>
+        <dt>Sunnudaga</dt>
+        <dd>Lokað</dd>
+    </dl>
+    <dl>
+        <dt><strong>Hér erum við</strong></dt>
+        <dd>Veitingastaðurinn ehf.</dd>
+        <dd>Aðalgata 10</dd>
+        <dd>100 Reykjavík</dd>
+        <dd> Sími 333-4567</dd>
+        <dd><a href="mailto:veitingastadur@example.org">veitingastadur@example.org</a></dd>
+    </dl>
+    </footer>
+</body>
+</html>
